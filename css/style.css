@@ -1,0 +1,163 @@
+@import "Null.css";
+*{
+    margin-top: 0
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: #E5E5E5;
+    padding: 40px;
+}
+
+.Wrapper{
+    display: flex;
+    width: 1400px;
+    margin: 0 auto;
+    flex-direction: row-reverse;
+    background: #FFFFFF;
+}
+.main-content{
+    padding: 88px;
+
+}
+.main-content p{
+    color: #595959;
+}
+.my-profession{
+    font-family: 'Montserrat', sans-serif;;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #000000;
+    margin-bottom: 18px;
+}
+.my-describe{
+    font-family: 'Montserrat', sans-serif;;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+
+    color: #595959;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;;
+    font-style: normal;
+    font-size: 45px;
+    line-height: 55px;
+
+    color: #000000;
+}
+
+a {
+    color: #0000FF;
+    text-decoration: none;
+}
+
+.my-project{
+    width: 102px;
+    height: 27px;
+
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 27px;
+
+
+    color: #000000;
+
+}
+
+.line{
+    display: inline-block;
+    width: 98px;
+    border-bottom: 1px dashed #000;
+}
+.line1{
+    display: inline-block;
+    width: 64px;
+    border-bottom: 1px dashed #000;
+}
+.line2{
+    display: inline-block;
+    width: 86px;
+    border-bottom: 1px dashed #000;
+}
+
+
+ol {
+    padding-inline-start: 20px;
+}
+ul {
+    padding-inline-start: 20px;
+}
+.container-header{
+    margin-top: 66px;
+
+}
+.container-header h2{
+    font-weight: 700;
+
+}
+.container-header ol li::marker {
+    font-weight: bold; /* Задаємо жирність для нумерації */
+}
+:-webkit-any(article, aside, nav, section) h1 {
+    margin-bottom:28px;
+}
+
+.Education{
+    width: 298px;
+    height: 114px;
+    margin-bottom:12px;
+    padding: 0;
+}
+.Education p {
+    width: 242px;
+    height: 15px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+}
+.Education h5{
+    /* Software Engineer */
+
+
+    width: 150px;
+    height: 17px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+
+
+    color: #000000;
+}
+/* aside */
+
+.aside{
+    background: #E0EBFE;
+    border-radius: 0;
+}
+.aside span{
+    margin: 0;
+    font-weight: 700;
+}
+.aside section{
+    margin-left: 40px;
+}
+.img{
+    margin-top: 40px;
+    width: 350px;
+    height: 354px;
+    background: #B1CCFF;
+}
+.number{
+    color: #000000;
+    text-decoration: none;
+}
