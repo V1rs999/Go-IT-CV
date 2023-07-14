@@ -161,3 +161,7 @@ ul {
     color: #000000;
     text-decoration: none;
 }
+/*Experience*/
+.Experience{
+    min-height: 525px;
+}
