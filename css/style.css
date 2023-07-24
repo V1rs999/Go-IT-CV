@@ -107,37 +107,29 @@ ul {
 :-webkit-any(article, aside, nav, section) h1 {
     margin-bottom:28px;
 }
+.list{
+    padding-left: 38px;
+}
 
-.Education{
-    width: 298px;
-    height: 114px;
-    margin-bottom:12px;
-    padding: 0;
+/*Навчання*/
+.Education h5{
+    margin-bottom: 10px;
+}
+.Education h4{
+    margin-bottom: 10px;
 }
 .Education p {
-    width: 242px;
-    height: 15px;
-
-    font-style: normal;
-    font-weight: 400;
     font-size: 12px;
-    line-height: 15px;
 }
-.Education h5{
-    /* Software Engineer */
-
-
-    width: 150px;
-    height: 17px;
-
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 17px;
-
-
-    color: #000000;
+.Education .school {
+    padding-left: 15px;
+    margin-bottom: 50px;
 }
+.Education .university{
+    padding-left: 15px;
+    margin-bottom: 30px;
+}
+
 /* aside */
 
 .aside{
@@ -162,6 +154,3 @@ ul {
     text-decoration: none;
 }
 /*Experience*/
-.Experience{
-    min-height: 525px;
-}
