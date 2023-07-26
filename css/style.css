@@ -10,7 +10,7 @@ body{
 
 .Wrapper{
     display: flex;
-    width: 1400px;
+    max-width: 1400px;
     margin: 0 auto;
     flex-direction: row-reverse;
     background: #FFFFFF;
@@ -35,7 +35,7 @@ body{
     font-family: 'Montserrat', sans-serif;;
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
     /* or 171% */
 
@@ -57,8 +57,8 @@ a {
 }
 
 .my-project{
-    width: 102px;
-    height: 27px;
+    max-width: 102px;
+    max-height: 27px;
 
     font-family: 'Montserrat',sans-serif;
     font-style: normal;
@@ -69,7 +69,9 @@ a {
     color: #000000;
 
 }
-
+.project-describe{
+   margin: 10px 0 10px 0 ;
+}
 .line{
     display: inline-block;
     width: 98px;
@@ -77,12 +79,12 @@ a {
 }
 .line1{
     display: inline-block;
-    width: 64px;
+    width: 105px;
     border-bottom: 1px dashed #000;
 }
 .line2{
     display: inline-block;
-    width: 86px;
+    width: 70px;
     border-bottom: 1px dashed #000;
 }
 
@@ -123,7 +125,7 @@ ul {
 }
 .Education .school {
     padding-left: 15px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 .Education .university{
     padding-left: 15px;
@@ -145,12 +147,21 @@ ul {
 }
 .img{
     margin-top: 40px;
-    width: 350px;
-    height: 354px;
+    min-width: 350px;
+    max-height: 354px;
     background: #B1CCFF;
 }
+.link {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+.img-link {
+    width: 40px;
+}
+
 .number{
     color: #000000;
     text-decoration: none;
 }
-/*Experience*/
