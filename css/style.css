@@ -8,7 +8,7 @@ body{
     padding: 40px;
 }
 
-.Wrapper{
+.Wrapper {
     display: flex;
     max-width: 1400px;
     margin: 0 auto;
@@ -16,8 +16,8 @@ body{
     background: #FFFFFF;
 }
 .main-content{
-    padding-right: 88px;
-    padding-left: 88px;
+    padding-right: 30px;
+    padding-left: 30px;
 
 }
 .main-content p{
@@ -36,7 +36,7 @@ body{
     font-family: 'Montserrat', sans-serif;;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 24px;
     /* or 171% */
 
@@ -46,7 +46,7 @@ body{
 h1{
     font-family: 'Montserrat', sans-serif;;
     font-style: normal;
-    font-size: 45px;
+    font-size: 35px;
     line-height: 55px;
 
     color: #000000;
@@ -63,7 +63,7 @@ a {
 
     font-family: 'Montserrat',sans-serif;
     font-style: normal;
-    font-size: 22px;
+    font-size: 14px;
     line-height: 27px;
 
 
@@ -121,8 +121,11 @@ ul {
 .Education h4{
     margin-bottom: 10px;
 }
+.Contacts{
+    font-size: 14px;
+}
 .Education p {
-    font-size: 12px;
+    font-size: 14px;
 }
 .Education .school {
     padding-left: 15px;
@@ -135,28 +138,40 @@ ul {
 
 /* aside */
 
-.aside{
+.aside {
+    flex: 1; /* Розтягуємо aside на всю доступну ширину */
     background: #E0EBFE;
     border-radius: 0;
+    padding: 20px; /* Додайте відступи за потребою */
 }
 .aside span{
     margin: 0;
     font-weight: 700;
 }
-.aside section{
-    margin-left: 40px;
-}
-.img{
-    margin-top: 40px;
-    min-width: 350px;
-    max-height: 354px;
+
+.img {
+    min-width: 253px;
+    max-height: 270px;
     background: #B1CCFF;
 }
+
 .link {
     display: flex;
     justify-content: space-between;
     padding-right: 20px;
     margin-bottom: 10px;
+
+}
+.highlight{
+    background: #f5ebd5;
+}
+.link a:hover {
+    background: #f5ebd5;
+    border-radius: 50px;
+}
+.link a:visited {
+    color: #fa0000;
+    border-radius: 50px;
 }
 .Experience{
     margin-top: 50px;
@@ -164,7 +179,9 @@ ul {
 .img-link {
     width: 40px;
 }
-
+.img-link:nth-child(2){
+    width: 50px;
+}
 .number{
     color: #000000;
     text-decoration: none;
