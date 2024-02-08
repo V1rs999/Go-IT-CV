@@ -30,7 +30,7 @@ body{
     font-size: 10px;
 
     color: #000000;
-    margin-bottom: 18px;
+    margin-bottom: 5px;
 }
 .my-describe{
     font-family: 'Montserrat', sans-serif;;
@@ -47,6 +47,7 @@ h1{
     font-style: normal;
 
     color: #000000;
+    margin-bottom: 5px;
 }
 
 a {
@@ -104,7 +105,6 @@ ul {
     font-weight: bold; /* Задаємо жирність для нумерації */
 }
 :-webkit-any(article, aside, nav, section) h1 {
-    margin-bottom:28px;
 }
 .list{
     padding-left: 38px;
@@ -115,12 +115,13 @@ ul {
 
 .Education h3{
     font-size: 16px;
+    margin-bottom: 5px;
 }
 .Education h5{
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 .Education h4{
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 .Contacts{
     font-size: 10px;
@@ -130,11 +131,9 @@ ul {
 }
 .Education .school {
     padding-left: 15px;
-    margin-bottom: 30px;
 }
 .Education .university{
     padding-left: 15px;
-    margin-bottom: 30px;
 }
 
 /* aside */
@@ -177,7 +176,7 @@ ul {
     border-radius: 50px;
 }
 .Experience{
-    margin-top: 50px;
+    margin-top: 10px;
 }
 .img-link {
     width: 30px;
@@ -188,4 +187,49 @@ ul {
 .number{
     color: #000000;
     text-decoration: none;
+}
+
+@media print {
+    body {
+        width: 210mm; /* Standard A4 width */
+        height: 297mm; /* Standard A4 height */
+        padding: 0;
+        margin: 0;
+        color: #000; /* Set default text color */
+        background-color: #fff; /* Set default background color */
+
+    }
+    p, li , span , a  {
+        font-size: 14px;
+    }
+    .project-describe{
+        font-size: 10px;
+    }
+    .my-profession{
+        font-size: 16px;
+        padding-bottom: 10px;
+    }
+    h3{
+        font-size: 18px;
+    }
+    .Wrapper {
+        width: 100%;
+        max-height: 100%;
+    }
+
+    .main-content {
+        width: 100%;
+        max-height: 100%;
+        padding: 0;
+    }
+
+    .aside {
+        width: 100%;
+        height: 70lvh;
+    }
+    .link{
+        display: none;
+    }
+
+    /* Additional styles for better print formatting can be added here */
 }
